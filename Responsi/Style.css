@@ -1,0 +1,194 @@
+body {
+    background-color: rgb(255, 255, 255), 255, 255;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+.navbar{
+    background-color: rgb(185, 30, 30);
+}
+
+.navbar a {
+    color: white;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+}
+
+.teks{
+    padding: 20px;
+    color: rgb(0, 0, 0);
+}
+.teks h1{
+    text-align: center;
+    color: black; 
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
+}
+.card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    width: 100%;
+    float: left;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.cardhome {
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    width: 100%;
+    float: left;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    content: center;
+
+}
+
+
+
+.informasi {
+    width: 97%;
+    margin: auto;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+.header h1{
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.header {
+    background-color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+.header img {
+    max-width: 150px;
+}
+
+.content {
+    padding: 20px;
+    background: #979797;
+
+}
+.content h1 {
+    color: rgb(0, 0, 0);
+    
+}
+.content p {
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+}
+.profile {
+    display: flex;
+    margin-top: 20px;
+    background: #fff;
+    padding: 20px;
+}
+.profile img {
+    width: 23%;
+    margin-right: 20px;
+    padding: 10px;
+    background-color: #979797;
+}
+.profile div {
+    flex: 1;
+}
+.profile h2 {
+    color: rgb(0, 0, 0);
+}
+.profile p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+.profile button {
+    background: rgb(185, 30, 30);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+section {
+    padding: 20px;
+    background: rgb(255, 255, 255);
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: start;
+    background: rgb(185, 30, 30);
+    color: #000;
+}
+
+.slideshow-container {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+.mySlides {
+    display: none;
+}
+.mySlides img {
+    width: 800px;
+    height: 450px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-content: center;
+    background-color: black;
+    object-fit: flex;
+}
+
+.gallery-title {
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.gallery-description {
+    color: #6c757d;
+    font-size: 18px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+.video-gallery {
+    margin-top: 30px;
+}
+.video-gallery .video-card {
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.video-gallery .video-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+.video-gallery .video-card-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #333;
+}
+.video-gallery .video-card-date {
+    font-size: 14px;
+    color: #6c757d;
+}
+.filter-options {
+    margin-top: 20px;
+}
